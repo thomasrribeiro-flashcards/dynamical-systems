@@ -15,8 +15,17 @@ A: (1) [Self-similarity]: the set looks similar at every scale (exact, approxima
 
 C: The [Cantor set] is constructed by iteratively REMOVING the middle third of each interval: start with $\lbrack 0, 1\rbrack $; remove $(1/3, 2/3)$; remove the middle thirds of $\lbrack 0, 1/3\rbrack $ and $\lbrack 2/3, 1\rbrack $; repeat ad infinitum.
 
-Q: What are the KEY PROPERTIES of the Cantor set?
-A: (1) UNCOUNTABLE (same cardinality as $\mathbb{R}$) despite having MEASURE ZERO. (2) TOTALLY DISCONNECTED — every pair of points separated by a gap. (3) NOWHERE DENSE — contains no interval. (4) PERFECT — every point is a limit point. (5) Fractal dimension $\log_3 2 \approx 0.631$ — strictly between 0 (points) and 1 (line). Paradigm of "big" sets in topology that are tiny in measure.
+Q: What is paradoxical about the Cantor set's CARDINALITY versus its MEASURE?
+A: It is uncountable (cardinality of $\mathbb{R}$) yet has measure zero.
+
+Q: In what sense is the Cantor set TOTALLY DISCONNECTED / NOWHERE DENSE?
+A: Every pair of points is separated by a gap, and it contains no interval.
+
+Q: Why is the Cantor set a PERFECT set?
+A: Every point is a limit point of the set.
+
+Q: What is the fractal dimension of the Cantor set, and what does its value signify?
+A: $\log_3 2 \approx 0.631$ — strictly between a point (0) and a line (1).
 
 ## 10.3 Self-Similarity
 
@@ -67,8 +76,17 @@ A: (1) [Coastlines] — dimension $\approx 1.25$ (Britain, Mandelbrot). (2) [Tre
 
 ## 10.10 Fractals and Dynamical Systems
 
-Q: How do FRACTALS arise in dynamical systems?
-A: (1) [Strange attractors] — chaotic attractors are fractal. (2) [Basin boundaries] — can be fractal ("fractal basin boundaries") making long-term prediction impossible. (3) [Invariant sets] of horseshoe maps — Cantor-set-like. (4) [Julia and Mandelbrot sets] — parameter space of iterated polynomials. (5) [Self-similar bifurcation cascades] — Feigenbaum universality has fractal structure in parameter space. Fractality signals chaos; both emerge from nonlinear dynamics.
+Q: In dynamical systems, what geometric property do chaotic (strange) attractors have?
+A: They are fractal.
+
+Q: Why can basin boundaries be fractal, and what is the consequence?
+A: With multiple attractors the boundary can be arbitrarily intricate (fractal), making long-term prediction of the final state impossible.
+
+Q: What kind of invariant set does the horseshoe map contain?
+A: A Cantor-set-like invariant set.
+
+Q: Where does fractal structure appear in the Feigenbaum period-doubling cascade?
+A: In parameter space — the self-similar bifurcation cascade.
 
 ## 10.11 Multifractals
 

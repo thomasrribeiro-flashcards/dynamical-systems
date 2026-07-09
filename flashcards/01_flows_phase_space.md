@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "flows", "phase-space", "fixed-points", "vector-fields"]
 +++
 
@@ -86,8 +86,17 @@ A: Because (1) many real systems are naturally discrete (population counts per y
 
 ## 1.10 Topology of Solutions
 
-Q: What basic TOPOLOGICAL structures appear in phase portraits?
-A: (1) Fixed points. (2) Periodic orbits (closed curves). (3) Heteroclinic orbits (connecting different fixed points). (4) Homoclinic orbits (starting and ending at the same fixed point). (5) Quasi-periodic orbits (dense on tori). (6) Chaotic attractors (fractal structures). Classifying a phase portrait means identifying these objects and how they are assembled. Invariant manifolds (stable and unstable) organize the dynamics globally.
+Q: What is a HETEROCLINIC orbit?
+A: A trajectory connecting two DIFFERENT fixed points — it leaves one as $t \to -\infty$ and approaches the other as $t \to +\infty$.
+
+Q: What is a HOMOCLINIC orbit?
+A: A trajectory that starts and ends at the SAME fixed point — it approaches that point as $t \to \pm\infty$.
+
+Q: What is a QUASI-PERIODIC orbit?
+A: An orbit winding DENSELY around a torus — motion with two or more incommensurate frequencies, never exactly repeating.
+
+Q: What does it mean to CLASSIFY a phase portrait?
+A: Identify its building blocks — fixed points, periodic orbits, heteroclinic/homoclinic connections, quasi-periodic orbits, chaotic attractors — and how invariant manifolds (stable and unstable) assemble them globally.
 
 ## 1.11 Invariant Sets
 

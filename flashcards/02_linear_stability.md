@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "linear-systems", "stability", "eigenvalues", "jacobian", "linearization"]
 +++
 
@@ -30,8 +30,16 @@ A: Because $e^{\lambda t} = e^{\text{Re}(\lambda) t} \cdot e^{i \text{Im}(\lambd
 
 ## 2.4 Classification in 2D
 
-Q: Classify fixed points of 2D linear systems by the trace $\tau = \text{tr}(A)$ and determinant $\Delta = \det(A)$.
-A: Eigenvalues satisfy $\lambda^2 - \tau \lambda + \Delta = 0$, so $\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}$. (1) $\Delta < 0$: [SADDLE] (real, opposite signs — unstable). (2) $\Delta > 0, \tau^2 > 4\Delta$: [NODE] (real, same sign — stable if $\tau < 0$, unstable if $\tau > 0$). (3) $\Delta > 0, \tau^2 < 4\Delta$: [SPIRAL / FOCUS] (complex — stable if $\tau < 0$). (4) $\Delta > 0, \tau = 0$: [CENTER] (pure imaginary — orbits).
+Q: How do the eigenvalues of a 2D linear system relate to the trace $\tau = \text{tr}(A)$ and determinant $\Delta = \det(A)$?
+A: Eigenvalues satisfy $\lambda^2 - \tau \lambda + \Delta = 0$, so $\lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}$.
+
+C: Trace-determinant classification: $\Delta < 0$ gives a [SADDLE] (real eigenvalues of opposite signs — always unstable).
+
+C: Trace-determinant classification: $\Delta > 0$ with $\tau^2 > 4\Delta$ gives a [NODE] (real eigenvalues of the same sign — stable if $\tau < 0$, unstable if $\tau > 0$).
+
+C: Trace-determinant classification: $\Delta > 0$ with $\tau^2 < 4\Delta$ and $\tau \neq 0$ gives a [SPIRAL / FOCUS] (complex eigenvalues — stable if $\tau < 0$).
+
+C: Trace-determinant classification: $\Delta > 0$ with $\tau = 0$ gives a [CENTER] (pure imaginary eigenvalues — closed orbits).
 
 Q: Describe the behavior near a SADDLE point.
 A: Two real eigenvalues of OPPOSITE SIGN, with eigenvectors forming the STABLE and UNSTABLE MANIFOLDS. Trajectories approach along the stable direction (negative eigenvalue) and recede along the unstable direction (positive eigenvalue). NONE stay near the saddle except those on the stable manifold itself. Saddles are UNSTABLE but organize flow: stable/unstable manifolds form separatrices that partition phase space into qualitatively distinct regions.

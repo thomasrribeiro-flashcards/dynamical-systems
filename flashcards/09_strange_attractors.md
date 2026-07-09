@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "attractors", "lorenz", "rossler", "henon", "basin-of-attraction"]
 +++
 
@@ -8,10 +8,19 @@ tags = ["math", "dynamical-systems", "attractors", "lorenz", "rossler", "henon",
 
 ## 9.1 What an Attractor Is
 
-C: An [attractor] is a CLOSED, INVARIANT set $A$ such that (1) a neighborhood of $A$ (the [basin of attraction]) exists whose trajectories all approach $A$ as $t \to \infty$, AND (2) $A$ is MINIMAL — no proper subset is also an attractor.
+C: An [attractor] is a CLOSED, INVARIANT set $A$ such that (1) a neighborhood of $A$ (the [basin of attraction]) exists whose trajectories all approach $A$ as $t \to \infty$, AND (2) $A$ is MINIMAL — no proper subset has these two properties.
 
-Q: What are the FOUR types of attractors?
-A: (1) [Fixed point]: 0-dimensional. Asymptotic stability. (2) [Limit cycle]: 1-dimensional closed curve. Periodic behavior. (3) [Torus (quasi-periodic)]: 2+ dimensional. Dynamics with multiple incommensurate frequencies. (4) [Strange attractor]: fractal, chaotic. The FIRST THREE are "simple" / classical attractors; strange attractors are the hallmark of chaos. These exhaust all generic attracting sets.
+Q: In the classification of attractors, what is a FIXED-POINT attractor (dimension and behavior)?
+A: 0-dimensional; an asymptotically stable steady state.
+
+Q: In the classification of attractors, what is a LIMIT-CYCLE attractor (dimension and behavior)?
+A: 1-dimensional closed curve; periodic behavior.
+
+Q: In the classification of attractors, what is a TORUS (quasi-periodic) attractor (dimension and behavior)?
+A: 2+ dimensional; dynamics with multiple incommensurate frequencies.
+
+Q: Which attractor type is fractal and chaotic, unlike the three "simple" (classical) attractors?
+A: The strange attractor — the hallmark of chaos.
 
 ## 9.2 Basins of Attraction
 

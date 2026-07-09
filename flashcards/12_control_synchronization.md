@@ -8,8 +8,8 @@ tags = ["math", "dynamical-systems", "control", "synchronization", "networks", "
 
 ## 12.1 Controlling Chaos
 
-Q: Can CHAOS be CONTROLLED?
-A: Yes — despite being "unpredictable," chaotic systems can be STEERED to desired behaviors via small, time-varying perturbations. Ott-Grebogi-Yorke (OGY) 1990: small parameter nudges stabilize unstable periodic orbits embedded in a chaotic attractor. Exploits SENSITIVITY: if the system is sensitive to initial conditions, it's also sensitive to control inputs — small inputs can produce large effects. Foundational insight for control of nonlinear/chaotic systems.
+Q: Why can chaos be controlled using only small perturbations?
+A: Because a chaotic system's SENSITIVITY to initial conditions makes it equally sensitive to control inputs — small, time-varying nudges produce large effects, so it can be STEERED to desired behaviors. Ott-Grebogi-Yorke (OGY, 1990) exploit this to stabilize unstable periodic orbits embedded in a chaotic attractor.
 
 Q: Describe the [OGY method] for stabilizing unstable periodic orbits.
 A: Chaotic attractors contain INFINITELY MANY UNSTABLE PERIODIC ORBITS (UPOs) densely. Goal: stabilize one desired UPO. When the trajectory comes near the UPO on its natural wandering: compute small parameter change needed to push it ONTO the stable manifold of the UPO. Apply the adjustment. Trajectory stays near UPO for a while until noise pushes it off, then wait for next near-pass. Demonstrated experimentally in lasers, chemical reactors, cardiac tissue.

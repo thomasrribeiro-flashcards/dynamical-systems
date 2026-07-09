@@ -1,6 +1,6 @@
 +++
 order = 4
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "phase-plane", "nullclines", "conservative", "reversible", "hamiltonian"]
 +++
 
@@ -20,8 +20,8 @@ A: Because they divide the plane into REGIONS where each of $\dot{x}, \dot{y}$ h
 
 ## 4.3 Trajectories in the Phase Plane
 
-Q: What structural features can 2D trajectories have?
-A: (1) Settle to a FIXED POINT. (2) Approach a LIMIT CYCLE (closed periodic orbit). (3) Escape to INFINITY. (4) Lie on a HETEROCLINIC orbit (connecting different fixed points). (5) Lie on a HOMOCLINIC orbit (starting and ending at the same saddle). In 2D, these ARE the only possibilities — NO chaos, NO dense complicated wandering. Poincaré-Bendixson constrains the plane.
+Q: What are the possible LONG-TERM FATES of a 2D trajectory?
+A: Settle to a FIXED POINT, approach a LIMIT CYCLE (closed periodic orbit), or escape to INFINITY (with special trajectories lying on heteroclinic/homoclinic connecting orbits). In 2D, these ARE the only possibilities — NO chaos, NO dense complicated wandering. Poincaré-Bendixson constrains the plane.
 
 ## 4.4 Conservative Systems
 
@@ -49,8 +49,8 @@ A: (1) $H$ is CONSERVED — energy conservation. (2) PHASE-SPACE VOLUME is prese
 
 ## 4.7 Lyapunov Functions Revisited
 
-Q: How can a [Lyapunov function] confirm stability in 2D?
-A: Find $V(x, y)$ with $V(x^*, y^*) = 0$, $V > 0$ elsewhere near $x^*$, and $\dot{V} \leq 0$ along trajectories ($\dot{V} < 0$ strict for asymptotic stability). Intuition: $V$ is a "height function" trajectories descend. Works for NON-HYPERBOLIC fixed points where linearization fails. Challenge: finding $V$ is often AN ART — no general algorithm. Quadratic forms ($V = ax^2 + by^2$) are common first guesses.
+Q: What CONDITIONS must a Lyapunov function $V(x, y)$ satisfy to certify stability of a fixed point $(x^*, y^*)$?
+A: $V(x^*, y^*) = 0$; $V > 0$ elsewhere near the fixed point; and $\dot{V} \leq 0$ along trajectories ($\dot{V} < 0$ strict for asymptotic stability). Intuition: $V$ is a "height function" trajectories descend. Challenge: finding $V$ is often AN ART — no general algorithm. Quadratic forms ($V = ax^2 + by^2$) are common first guesses.
 
 ## 4.8 Limit Sets
 

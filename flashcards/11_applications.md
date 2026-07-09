@@ -70,8 +70,20 @@ A: Near-24-hour rhythms in gene expression (PER, TIM, CRY, CLK, BMAL1 in vertebr
 
 ## 11.11 Population Dynamics in Ecology
 
-Q: Describe realistic POPULATION MODELS beyond Lotka-Volterra.
-A: (1) [Logistic growth]: bounded by carrying capacity $K$: $\dot{N} = rN(1 - N/K)$. (2) [ALLEE EFFECT]: small populations crash (e.g., difficulty finding mates) — a saddle-node below which extinction is inevitable. (3) [SPATIAL MODELS]: reaction-diffusion PDEs yielding traveling waves (disease spread, invasive species). (4) [METAPOPULATIONS]: networks of connected habitat patches — extinction cascades. (5) [FOOD WEBS]: many-species dynamics exhibiting chaos, multi-stability, and regime shifts.
+Q: What population model adds a carrying capacity $K$ to bounded growth, and what is its equation?
+A: Logistic growth: $\dot{N} = rN(1 - N/K)$.
+
+Q: What is the ALLEE EFFECT in population dynamics?
+A: Small populations crash (e.g. difficulty finding mates) — a saddle-node below which extinction is inevitable.
+
+Q: What type of population model uses reaction-diffusion PDEs, and what phenomenon does it produce?
+A: Spatial models — producing traveling waves (disease spread, invasive species).
+
+Q: In ecology, what is a METAPOPULATION?
+A: A network of connected habitat patches, prone to extinction cascades.
+
+Q: What complex dynamics do multi-species FOOD WEB models exhibit?
+A: Chaos, multi-stability, and regime shifts.
 
 ## 11.12 A Worked Application
 

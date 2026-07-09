@@ -1,6 +1,6 @@
 +++
 order = 3
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "bifurcation", "saddle-node", "transcritical", "pitchfork", "normal-form"]
 +++
 
