@@ -13,7 +13,7 @@ A: (1) [Self-similarity]: the set looks similar at every scale (exact, approxima
 
 ## 10.2 The Cantor Set
 
-C: The [Cantor set] is constructed by iteratively REMOVING the middle third of each interval: start with $[0, 1]$; remove $(1/3, 2/3)$; remove the middle thirds of $[0, 1/3]$ and $[2/3, 1]$; repeat ad infinitum.
+C: The [Cantor set] is constructed by iteratively REMOVING the middle third of each interval: start with $\lbrack 0, 1\rbrack $; remove $(1/3, 2/3)$; remove the middle thirds of $\lbrack 0, 1/3\rbrack $ and $\lbrack 2/3, 1\rbrack $; repeat ad infinitum.
 
 Q: What are the KEY PROPERTIES of the Cantor set?
 A: (1) UNCOUNTABLE (same cardinality as $\mathbb{R}$) despite having MEASURE ZERO. (2) TOTALLY DISCONNECTED — every pair of points separated by a gap. (3) NOWHERE DENSE — contains no interval. (4) PERFECT — every point is a limit point. (5) Fractal dimension $\log_3 2 \approx 0.631$ — strictly between 0 (points) and 1 (line). Paradigm of "big" sets in topology that are tiny in measure.
