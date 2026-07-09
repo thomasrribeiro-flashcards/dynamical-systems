@@ -1,6 +1,6 @@
 +++
 order = 6
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "hopf-bifurcation", "homoclinic", "heteroclinic", "global-bifurcations"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 10
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "fractals", "self-similarity", "cantor-set", "mandelbrot", "ifs"]
 +++
 

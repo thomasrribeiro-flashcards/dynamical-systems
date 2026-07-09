@@ -1,6 +1,6 @@
 +++
 order = 7
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "maps", "logistic", "period-doubling", "feigenbaum", "iteration"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 11
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "biology", "climate", "neuroscience", "ecology", "applications"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 8
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "chaos", "lyapunov-exponents", "sensitivity", "butterfly-effect", "predictability"]
 +++
 

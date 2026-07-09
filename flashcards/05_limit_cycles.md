@@ -1,6 +1,6 @@
 +++
 order = 5
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "dynamical-systems", "limit-cycles", "poincare-bendixson", "van-der-pol", "oscillations"]
 +++
 
