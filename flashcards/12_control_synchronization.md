@@ -1,6 +1,6 @@
 +++
 order = 12
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "dynamical-systems", "control", "synchronization", "networks", "kuramoto", "coupled-oscillators"]
 +++
 

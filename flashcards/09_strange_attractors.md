@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "dynamical-systems", "attractors", "lorenz", "rossler", "henon", "basin-of-attraction"]
 +++
 

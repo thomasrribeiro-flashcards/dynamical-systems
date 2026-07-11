@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "dynamical-systems", "flows", "phase-space", "fixed-points", "vector-fields"]
 +++
 

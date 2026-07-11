@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "dynamical-systems", "linear-systems", "stability", "eigenvalues", "jacobian", "linearization"]
 +++
 

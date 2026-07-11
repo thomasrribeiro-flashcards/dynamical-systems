@@ -1,6 +1,6 @@
 +++
 order = 4
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "dynamical-systems", "phase-plane", "nullclines", "conservative", "reversible", "hamiltonian"]
 +++
 
